@@ -18,6 +18,26 @@
 
     <main role="main" id="main">
       <span id="layout-alerts">{{> inlineAlerts}}</span>
+
+      <div id="banner">
+          <div class="col-md-8 video">
+              <div class="video-play-btn" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 80px;">
+                  <span style="margin-left: 5px; margin-top: 2px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 16 16" class="icon animate" style="shape-rendering: geometricPrecision;">
+                      <path fill-rule="evenodd" class="animate" fill="white" d="M3.882 2.48C3.395 2.216 3 2.457 3 3.003v9.996c0 .553.391.788.882.521l9.236-5.038c.487-.266.49-.695 0-.962L3.882 2.481z">
+
+                      </path>
+                      </svg>
+                    </span>
+              </div>
+              <img src="http://www.thinknextcard.com/ProductImages/0philips.jpg" class="yellow rounded-big overflow-hidden col-12 clickable-stroked pointer animate" style="height: auto; width: 100%">
+          </div>
+
+          <div class="col-md-4 description">
+
+          </div>
+      </div>
+
       {{#if hasPermission 'guest'}}
         <!-- begin template region -->
         {{> Template.dynamic template=template}}
