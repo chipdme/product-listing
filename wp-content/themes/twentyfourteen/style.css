@@ -4397,3 +4397,11 @@ a.post-thumbnail:hover {
 .banner {
 	margin-top: 40px;
 }
+
+.site-title {
+	background-image: url(../../../wp-includes/images/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 3pc;
+	width: 100px;
+}
