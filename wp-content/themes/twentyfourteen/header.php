@@ -60,7 +60,7 @@
 		<!--		<a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--" rel="home">-->
 		<!--			<img src="--><?php //header_image(); ?><!--" width="--><?php //echo get_custom_header()->width; ?><!--" height="--><?php //echo get_custom_header()->height; ?><!--" alt="--><?php //echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?><!--">-->
 		<!--		</a>-->
-		<div class="video-demo-wrapper">
+		<div class="video-demo-wrapper animate">
 			<!--            <div class="video-circle-control no-events flex justify-center items-center">-->
 			<!--                <span style="margin-left: 5px; margin-top: 2px;">-->
 			<!--					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 16 16" class="icon animate" style="shape-rendering: geometricPrecision;"><path fill-rule="evenodd" class="animate" fill="white" d="M3.882 2.48C3.395 2.216 3 2.457 3 3.003v9.996c0 .553.391.788.882.521l9.236-5.038c.487-.266.49-.695 0-.962L3.882 2.481z"></path></svg>-->
