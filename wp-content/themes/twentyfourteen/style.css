@@ -4328,3 +4328,63 @@ a.post-thumbnail:hover {
 .tfwc {
 	margin-right: auto !important;
 }
+
+.video-demo-wrapper iframe {
+	border-radius: 10px;
+	left: 50%;
+	transform: translate(50%, 0%);
+	box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+}
+
+.video-demo-wrapper .video-circle-control {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: #ffbf00;
+}
+
+.video-demo-wrapper .video-thumbnail {
+	margin-right: auto;
+	box-shadow: 0 0 0 2px transparent;
+	height: auto;
+	cursor: pointer;
+	width: 100%;
+}
+
+.no-events {
+	pointer-events: none;
+}
+
+.justify-center: {
+	justify-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+}
+
+.items-center: {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-ms-grid-row-align: center;
+	align-items: center
+}
+
+.flex: {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.animate {
+	transition: .085s all ease-in;
+}
+
+.banner {
+	margin-top: 40px;
+}
