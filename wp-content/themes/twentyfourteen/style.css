@@ -4329,11 +4329,19 @@ a.post-thumbnail:hover {
 	margin-right: auto !important;
 }
 
-.video-demo-wrapper iframe {
-	border-radius: 10px;
+.video-demo-wrapper {
+	top: 50%;
 	left: 50%;
+	width: 560px;
+	height: 315px;
 	transform: translate(50%, 0%);
 	box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.video-demo-wrapper iframe {
+
 }
 
 .video-demo-wrapper .video-circle-control {
