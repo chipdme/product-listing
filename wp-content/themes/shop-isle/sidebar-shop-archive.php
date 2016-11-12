@@ -10,6 +10,6 @@ if ( ! is_active_sidebar( 'shop-isle-sidebar-shop-archive' ) ) {
 }
 ?>
 
-<div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'shop-isle-sidebar-shop-archive' ); ?>
-</div><!-- #secondary -->
+<!--<div id="secondary" class="widget-area" role="complementary">-->
+<!--	--><?php //dynamic_sidebar( 'shop-isle-sidebar-shop-archive' ); ?>
+<!--</div><!-- #secondary -->-->

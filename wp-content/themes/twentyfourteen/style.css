@@ -4051,11 +4051,13 @@ a.post-thumbnail:hover {
 
 	.site-content,
 	.site-main .widecolumn {
-		margin-left: 222px;
+		margin-left: 0px;
+		/*margin-left: 222px;*/
 	}
 
 	.site:before {
-		width: 222px;
+		width: 0;
+		/*width: 222px;*/
 	}
 
 	.search-box-wrapper,
@@ -4132,7 +4134,8 @@ a.post-thumbnail:hover {
 	.site-content .entry-content,
 	.site-content .entry-summary,
 	.site-content footer.entry-meta {
-		margin-right: 54px;
+		margin-right: auto;
+		/*margin-right: 54px;*/
 	}
 
 	.full-width .archive-header,
@@ -4319,4 +4322,9 @@ a.post-thumbnail:hover {
 		font-size: 25pt;
 		line-height: 36px;
 	}
+}
+
+/* Custom css */
+.tfwc {
+	margin-right: auto !important;
 }
