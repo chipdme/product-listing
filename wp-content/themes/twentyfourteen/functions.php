@@ -262,7 +262,7 @@ function twentyfourteen_scripts() {
 			'nextText' => __( 'Next', 'twentyfourteen' )
 		) );
 	}
-
+	wp_enqueue_script( 'parallax', get_template_directory_uri() . '/js/parallax.min.js', array( 'jquery' ), '20150315', true );
 	wp_enqueue_script( 'twentyfourteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20150315', true );
 }
 add_action( 'wp_enqueue_scripts', 'twentyfourteen_scripts' );
