@@ -64,9 +64,15 @@
 			<h1 class="tag-line">Minor defects, major discounts.</h1>
 		</div>
 		<div class="video-demo-wrapper animate">
-			<video width="560" height="315" controls>
+			<video width="560" height="315">
 				<source src="<?php echo(includes_url() . 'images/explanation.mp4') ?>" type="video/mp4">
 			</video>
+			<div class="video-demo-play-wrapper flex justify-center items-center">
+				<div class="video-demo-play flex justfify-center items-center">
+					<h3>See how it works</h3>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" class="icon animate" style="shape-rendering: geometricPrecision;"><path fill-rule="evenodd" class="animate" fill="white" d="M3.882 2.48C3.395 2.216 3 2.457 3 3.003v9.996c0 .553.391.788.882.521l9.236-5.038c.487-.266.49-.695 0-.962L3.882 2.481z"></path></svg>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="main" class="site-main">
