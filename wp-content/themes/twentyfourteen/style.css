@@ -4442,3 +4442,7 @@ a.post-thumbnail:hover {
 	pointer-events: none;
 	border-bottom: 3px solid rgba(255,255,255,0.8);
 }
+
+.hidden {
+	display: none;
+}

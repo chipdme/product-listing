@@ -14,6 +14,21 @@
 	button = nav.find( '.menu-toggle' );
 	menu = nav.find( '.nav-menu' );
 
+	var videoControlStart = document.getElementById( 'video-demo-start' ),
+		video = document.getElementById('video-demo');
+
+	videoControlStart.onclick = function() {
+		video.play();
+		video.setAttribute("controls","controls");
+		$('.video-demo-play-wrapper').addClass('hidden');
+	}
+
+	video.addEventListener('ended', function() {
+		video.removeAttribute("controls");
+		$('.video-demo-play-wrapper').removeClass('hidden');
+	});
+
+
 	// Enable menu toggle for small screens.
 	( function() {
 		if ( ! nav.length || ! button.length ) {
