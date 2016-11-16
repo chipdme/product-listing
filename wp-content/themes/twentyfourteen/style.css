@@ -5002,3 +5002,64 @@ a.post-thumbnail:hover {
 .hidden {
   display: none;
 }
+
+/* line 4452, sass/style.scss */
+.cart_totals.calculated_shipping {
+  width: 100% !important;
+}
+/* line 4454, sass/style.scss */
+.cart_totals.calculated_shipping .checkout-button {
+  background-color: #D31150 !important;
+}
+
+/* line 4459, sass/style.scss */
+.entry-header {
+  padding: 2em !important;
+}
+
+/* line 4463, sass/style.scss */
+.woocommerce-Tabs-panel {
+  padding: 1em !important;
+}
+
+/* line 4467, sass/style.scss */
+.entry-summary {
+  padding: 0.5em !important;
+}
+/* line 4469, sass/style.scss */
+.entry-summary button {
+  background-color: #D31150 !important;
+}
+
+/* line 4474, sass/style.scss */
+.tfwc {
+  max-width: 70% !important;
+  background: white;
+}
+
+/* line 4479, sass/style.scss */
+#main {
+  margin: 3em !important;
+}
+/* line 4481, sass/style.scss */
+#main #primary {
+  padding: 0 !important;
+}
+
+/* line 4487, sass/style.scss */
+article input#coupon_code {
+  width: 10em !important;
+}
+/* line 4491, sass/style.scss */
+article header.entry-header {
+  max-width: 70% !important;
+}
+/* line 4494, sass/style.scss */
+article .entry-content {
+  max-width: 70% !important;
+  padding: 2em !important;
+}
+/* line 4499, sass/style.scss */
+article input#place_order {
+  background-color: #D31150 !important;
+}

@@ -520,3 +520,52 @@ require get_template_directory() . '/inc/customizer.php';
 if ( ! class_exists( 'Featured_Content' ) && 'plugins.php' !== $GLOBALS['pagenow'] ) {
 	require get_template_directory() . '/inc/featured-content.php';
 }
+
+add_action( 'template_include', 'xx_render_endpoint');
+
+function xx_render_endpoint($default_template)
+{
+	global $wp_query;
+
+	// If this isn't singular page or index is not the endpoint
+	// return default template
+
+	if ( ! is_singular() || !isset($wp_query->query_vars['index']) )
+	{
+		return $default_template;
+	}
+
+	// our custom template selection variable which default to null
+	// or you can set a template for just "index" key
+	// Like: plugin_dir_path(__FILE__) . '/your-template-index.php';
+
+	$template_selection = null;
+
+	// Why we're exploding index value string into array? As i said in comments
+	// key => value (index => 1/2). So if you have a url like
+	// this "post-name/index/1/2", then "1/2" is the value of key "index"
+	// so we have to separate both values in your case.
+
+	$indexes = explode('/', get_query_var('index'));
+
+	// Assuming the values "1/2" isset in the url hold the absolute path
+	// to the template on our $template_selection variable
+	// Same for the second elseif block instead its just select value "1"
+
+
+	if (isset($indexes[0])) {
+		$template_selection = get_template_directory()  . '/about.php';
+	}
+
+	// If our $template_selection variable is not null assign the value
+	// to $default_template which is the required parameter of template_include filter
+
+	if (isset($template_selection)) {
+		$default_template = $template_selection;
+	}
+
+	// Fallback for default template and our template selection
+	return $default_template;
+}
+
+

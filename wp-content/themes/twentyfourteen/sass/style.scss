@@ -4446,3 +4446,57 @@ a.post-thumbnail:hover {
 .hidden {
   display: none;
 }
+
+$primary-color: #D31150;
+
+.cart_totals.calculated_shipping {
+  width: 100% !important;
+  .checkout-button {
+    background-color: $primary-color !important;
+  }
+}
+
+.entry-header {
+  padding: 2em !important;
+}
+
+.woocommerce-Tabs-panel {
+  padding: 1em !important;
+}
+
+.entry-summary {
+  padding: 0.5em !important;
+  button {
+    background-color: $primary-color !important;
+  }
+}
+
+.tfwc {
+  max-width: 70% !important;
+  background: white;
+}
+
+#main {
+  margin: 3em !important;
+  #primary {
+    padding: 0 !important;
+  }
+}
+
+article {
+  input#coupon_code {
+    width: 10em !important;
+  }
+
+  header.entry-header {
+    max-width: 70% !important;
+  }
+  .entry-content {
+    max-width: 70% !important;
+    padding: 2em !important;
+  }
+
+  input#place_order {
+    background-color: $primary-color !important;
+  }
+}
