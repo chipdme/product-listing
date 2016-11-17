@@ -4499,6 +4499,9 @@ $bg-color: #F1F1F1;
   margin-top: 3em !important;
   max-width: 90% !important;
   background: white;
+  .page-title, .woocommerce-result-count {
+    display: none;
+  }
 }
 
 #main {
