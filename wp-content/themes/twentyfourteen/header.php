@@ -59,6 +59,8 @@
 			</div>
 		</div>
 	</header><!-- #masthead -->
+	<?php if ($_SERVER['REQUEST_URI'] == '/chipd/' || $_SERVER['REQUEST_URI'] == '/chipd/about/') : ?>
+
 	<div id="site-header" class="banner flex">
 		<div class="flex justify-center items-center">
 			<h1 class="tag-line">Minor defects, major discounts.</h1>
@@ -77,4 +79,5 @@
 			</div>
 		</div>
 	</div>
+	<?php endif; ?>
 	<div id="main" class="site-main">
