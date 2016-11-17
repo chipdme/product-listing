@@ -5123,3 +5123,30 @@ article input#place_order {
   background-color: #F1F1F1;
   height: 3em;
 }
+
+/* line 4558, sass/style.scss */
+.contact-box {
+  background-color: #fff;
+}
+/* line 4560, sass/style.scss */
+.contact-box .contact-input {
+  background-color: #F1F1F1;
+  width: 20em;
+  color: white;
+  box-sizing: border-box;
+}
+/* line 4566, sass/style.scss */
+.contact-box .contact-button {
+  margin-top: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #D31150;
+  width: 26.7em;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* line 4577, sass/style.scss */
+#secondary {
+  display: none;
+}

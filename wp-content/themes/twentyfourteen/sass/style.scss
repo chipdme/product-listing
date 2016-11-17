@@ -4554,3 +4554,26 @@ article {
   background-color: $bg-color;
   height: 3em;
 }
+
+.contact-box {
+  background-color: #fff;
+  .contact-input {
+    background-color: $bg-color;
+    width: 20em;
+    color: white;
+    box-sizing: border-box;
+  }
+  .contact-button {
+    margin-top: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: $primary-color;
+    width: 26.7em;
+    color: white;
+    box-sizing: border-box;
+  }
+}
+
+#secondary {
+  display: none;
+}

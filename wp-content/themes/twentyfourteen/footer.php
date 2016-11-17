@@ -11,6 +11,18 @@
 ?>
 
 		</div><!-- #main -->
+		<div class="flex items-center justify-center" style="height: 529px">
+			<div class="contact-box flex-column items-center" style="width: 509px; height: 391px">
+				<h1 style="margin: 1em;">Get contacted</h1>
+				<input
+					placeholder="Email"
+					class="contact-input"
+				>
+
+				</input>
+				<button class="contact-button">Get Contacted</button>
+			</div>
+		</div>
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 
