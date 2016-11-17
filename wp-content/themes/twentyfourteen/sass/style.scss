@@ -4383,6 +4383,29 @@ a.post-thumbnail:hover {
   display: flex;
 }
 
+.flex-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+
+.cropped {
+  background-position: 0px 0px;
+  background-size: 55px 55px;
+  width: 55px;
+  height: 55px;
+}
+
 .animate {
   transition: .085s all ease-in;
 }
@@ -4448,6 +4471,7 @@ a.post-thumbnail:hover {
 }
 
 $primary-color: #D31150;
+$bg-color: #F1F1F1;
 
 .cart_totals.calculated_shipping {
   width: 100% !important;
@@ -4472,31 +4496,61 @@ $primary-color: #D31150;
 }
 
 .tfwc {
-  max-width: 70% !important;
+  margin-top: 3em !important;
+  max-width: 90% !important;
   background: white;
 }
 
 #main {
-  margin: 3em !important;
+  margin: 0 !important;
   #primary {
     padding: 0 !important;
   }
 }
 
 article {
+  margin: 3em !important;
+
   input#coupon_code {
     width: 10em !important;
   }
 
   header.entry-header {
-    max-width: 70% !important;
+    max-width: 90% !important;
   }
   .entry-content {
-    max-width: 70% !important;
+    max-width: 90% !important;
     padding: 2em !important;
   }
 
   input#place_order {
     background-color: $primary-color !important;
   }
+}
+
+#post-27 {
+  margin: 0 !important;
+
+  header.entry-header {
+    display: none !important;
+  }
+  .entry-content {
+    max-width: 100% !important;
+  }
+
+  .three-icons {
+    p {
+      max-width: 15em;
+    }
+  }
+}
+
+.search-box {
+  float: right;
+  width: 20em;
+}
+
+.dummy-height {
+  background-color: $bg-color;
+  height: 3em;
 }
