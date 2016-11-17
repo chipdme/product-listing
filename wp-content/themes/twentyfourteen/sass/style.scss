@@ -4497,6 +4497,7 @@ $bg-color: #F1F1F1;
 
 .tfwc {
   margin-top: 3em !important;
+  margin-bottom: 3em !important;
   max-width: 90% !important;
   background: white;
   .page-title, .woocommerce-result-count {
@@ -4579,4 +4580,8 @@ article {
 
 #secondary {
   display: none;
+}
+
+#page {
+  background: transparent !important;
 }

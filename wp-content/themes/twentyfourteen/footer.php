@@ -11,8 +11,11 @@
 ?>
 
 		</div><!-- #main -->
-		<div class="flex items-center justify-center" style="height: 529px">
-			<div class="contact-box flex-column items-center" style="width: 509px; height: 391px">
+		<div class="flex items-center justify-center parallax-window"
+			 data-parallax="scroll"
+			 data-image-src="http://storage.googleapis.com/instapage-user-media/3decfab1/1765785-0-background-36.png"
+			 style="height: 450px">
+			<div class="contact-box flex-column items-center" style="width: 450px; height: 300px">
 				<h1 style="margin: 1em;">Get contacted</h1>
 				<input
 					placeholder="Email"

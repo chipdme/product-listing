@@ -5060,86 +5060,87 @@ a.post-thumbnail:hover {
 /* line 4498, sass/style.scss */
 .tfwc {
   margin-top: 3em !important;
+  margin-bottom: 3em !important;
   max-width: 90% !important;
   background: white;
 }
-/* line 4502, sass/style.scss */
+/* line 4503, sass/style.scss */
 .tfwc .page-title, .tfwc .woocommerce-result-count {
   display: none;
 }
 
-/* line 4507, sass/style.scss */
+/* line 4508, sass/style.scss */
 #main {
   margin: 0 !important;
 }
-/* line 4509, sass/style.scss */
+/* line 4510, sass/style.scss */
 #main #primary {
   padding: 0 !important;
 }
 
-/* line 4514, sass/style.scss */
+/* line 4515, sass/style.scss */
 article {
   margin: 3em !important;
 }
-/* line 4517, sass/style.scss */
+/* line 4518, sass/style.scss */
 article input#coupon_code {
   width: 10em !important;
 }
-/* line 4521, sass/style.scss */
+/* line 4522, sass/style.scss */
 article header.entry-header {
   max-width: 90% !important;
 }
-/* line 4524, sass/style.scss */
+/* line 4525, sass/style.scss */
 article .entry-content {
   max-width: 90% !important;
   padding: 2em !important;
 }
-/* line 4529, sass/style.scss */
+/* line 4530, sass/style.scss */
 article input#place_order {
   background-color: #D31150 !important;
 }
 
-/* line 4534, sass/style.scss */
+/* line 4535, sass/style.scss */
 #post-27 {
   margin: 0 !important;
 }
-/* line 4537, sass/style.scss */
+/* line 4538, sass/style.scss */
 #post-27 header.entry-header {
   display: none !important;
 }
-/* line 4540, sass/style.scss */
+/* line 4541, sass/style.scss */
 #post-27 .entry-content {
   max-width: 100% !important;
 }
-/* line 4545, sass/style.scss */
+/* line 4546, sass/style.scss */
 #post-27 .three-icons p {
   max-width: 15em;
 }
 
-/* line 4551, sass/style.scss */
+/* line 4552, sass/style.scss */
 .search-box {
   float: right;
   width: 20em;
 }
 
-/* line 4556, sass/style.scss */
+/* line 4557, sass/style.scss */
 .dummy-height {
   background-color: #F1F1F1;
   height: 3em;
 }
 
-/* line 4561, sass/style.scss */
+/* line 4562, sass/style.scss */
 .contact-box {
   background-color: #fff;
 }
-/* line 4563, sass/style.scss */
+/* line 4564, sass/style.scss */
 .contact-box .contact-input {
   background-color: #F1F1F1;
   width: 20em;
   color: white;
   box-sizing: border-box;
 }
-/* line 4569, sass/style.scss */
+/* line 4570, sass/style.scss */
 .contact-box .contact-button {
   margin-top: 1em;
   padding-top: 2em;
@@ -5150,7 +5151,12 @@ article input#place_order {
   box-sizing: border-box;
 }
 
-/* line 4580, sass/style.scss */
+/* line 4581, sass/style.scss */
 #secondary {
   display: none;
+}
+
+/* line 4585, sass/style.scss */
+#page {
+  background: transparent !important;
 }
