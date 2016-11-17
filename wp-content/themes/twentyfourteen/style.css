@@ -4965,10 +4965,12 @@ a.post-thumbnail:hover {
 /* line 4413, sass/style.scss */
 .banner {
   padding: 40px;
+  padding-left: 4em;
+  padding-right: 4em;
   background-color: #00A8EF;
 }
 
-/* line 4418, sass/style.scss */
+/* line 4420, sass/style.scss */
 .site-title {
   background-image: url(../../../wp-includes/images/logo.png);
   background-size: contain;
@@ -4977,7 +4979,7 @@ a.post-thumbnail:hover {
   width: 100px;
 }
 
-/* line 4426, sass/style.scss */
+/* line 4428, sass/style.scss */
 .tag-line {
   font-size: 2.8rem;
   font-weight: 500;
@@ -4989,7 +4991,7 @@ a.post-thumbnail:hover {
   color: #fff;
 }
 
-/* line 4437, sass/style.scss */
+/* line 4439, sass/style.scss */
 .video-demo-play-wrapper {
   position: absolute;
   top: 0;
@@ -4998,7 +5000,7 @@ a.post-thumbnail:hover {
   bottom: 0;
 }
 
-/* line 4445, sass/style.scss */
+/* line 4447, sass/style.scss */
 .video-demo-play-wrapper .video-demo-play {
   background-color: #D31150;
   border-radius: 40px;
@@ -5012,7 +5014,7 @@ a.post-thumbnail:hover {
   flex-direction: row;
 }
 
-/* line 4458, sass/style.scss */
+/* line 4460, sass/style.scss */
 .video-demo-play-wrapper .video-demo-play h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -5024,123 +5026,122 @@ a.post-thumbnail:hover {
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
 }
 
-/* line 4469, sass/style.scss */
+/* line 4471, sass/style.scss */
 .hidden {
   display: none;
 }
 
-/* line 4476, sass/style.scss */
+/* line 4478, sass/style.scss */
 .cart_totals.calculated_shipping {
   width: 100% !important;
 }
-/* line 4478, sass/style.scss */
+/* line 4480, sass/style.scss */
 .cart_totals.calculated_shipping .checkout-button {
   background-color: #D31150 !important;
 }
 
-/* line 4483, sass/style.scss */
+/* line 4485, sass/style.scss */
 .entry-header {
   padding: 2em !important;
 }
 
-/* line 4487, sass/style.scss */
+/* line 4489, sass/style.scss */
 .woocommerce-Tabs-panel {
   padding: 1em !important;
 }
 
-/* line 4491, sass/style.scss */
+/* line 4493, sass/style.scss */
 .entry-summary {
   padding: 0.5em !important;
 }
-/* line 4493, sass/style.scss */
+/* line 4495, sass/style.scss */
 .entry-summary button {
   background-color: #D31150 !important;
 }
 
-/* line 4498, sass/style.scss */
+/* line 4500, sass/style.scss */
 .tfwc {
   margin-top: 3em !important;
-  margin-bottom: 3em !important;
   max-width: 90% !important;
   background: white;
 }
-/* line 4503, sass/style.scss */
+/* line 4504, sass/style.scss */
 .tfwc .page-title, .tfwc .woocommerce-result-count {
   display: none;
 }
 
-/* line 4508, sass/style.scss */
+/* line 4509, sass/style.scss */
 #main {
   margin: 0 !important;
 }
-/* line 4510, sass/style.scss */
+/* line 4511, sass/style.scss */
 #main #primary {
   padding: 0 !important;
 }
 
-/* line 4515, sass/style.scss */
+/* line 4516, sass/style.scss */
 article {
   margin: 3em !important;
 }
-/* line 4518, sass/style.scss */
+/* line 4519, sass/style.scss */
 article input#coupon_code {
   width: 10em !important;
 }
-/* line 4522, sass/style.scss */
+/* line 4523, sass/style.scss */
 article header.entry-header {
   max-width: 90% !important;
 }
-/* line 4525, sass/style.scss */
+/* line 4526, sass/style.scss */
 article .entry-content {
   max-width: 90% !important;
   padding: 2em !important;
 }
-/* line 4530, sass/style.scss */
+/* line 4531, sass/style.scss */
 article input#place_order {
   background-color: #D31150 !important;
 }
 
-/* line 4535, sass/style.scss */
+/* line 4536, sass/style.scss */
 #post-27 {
   margin: 0 !important;
 }
-/* line 4538, sass/style.scss */
+/* line 4539, sass/style.scss */
 #post-27 header.entry-header {
   display: none !important;
 }
-/* line 4541, sass/style.scss */
+/* line 4542, sass/style.scss */
 #post-27 .entry-content {
   max-width: 100% !important;
 }
-/* line 4546, sass/style.scss */
+/* line 4547, sass/style.scss */
 #post-27 .three-icons p {
   max-width: 15em;
 }
 
-/* line 4552, sass/style.scss */
+/* line 4553, sass/style.scss */
 .search-box {
   float: right;
   width: 20em;
 }
 
-/* line 4557, sass/style.scss */
+/* line 4558, sass/style.scss */
 .dummy-height {
   background-color: #F1F1F1;
   height: 3em;
 }
 
-/* line 4562, sass/style.scss */
+/* line 4563, sass/style.scss */
 .contact-box {
   background-color: #fff;
 }
-/* line 4564, sass/style.scss */
+/* line 4565, sass/style.scss */
 .contact-box .contact-input {
   background-color: #F1F1F1;
   width: 20em;
   color: white;
   box-sizing: border-box;
 }
-/* line 4570, sass/style.scss */
+/* line 4571, sass/style.scss */
 .contact-box .contact-button {
   margin-top: 1em;
   padding-top: 2em;
@@ -5151,17 +5152,17 @@ article input#place_order {
   box-sizing: border-box;
 }
 
-/* line 4581, sass/style.scss */
+/* line 4582, sass/style.scss */
 #secondary {
   display: none;
 }
 
-/* line 4585, sass/style.scss */
+/* line 4586, sass/style.scss */
 #content {
   background-color: white;
 }
 
-/* line 4589, sass/style.scss */
+/* line 4590, sass/style.scss */
 #page {
   background: transparent !important;
 }

@@ -4412,6 +4412,8 @@ a.post-thumbnail:hover {
 
 .banner {
   padding: 40px;
+  padding-left: 4em;
+  padding-right: 4em;
   background-color: #00A8EF;
 }
 
@@ -4497,7 +4499,6 @@ $bg-color: #F1F1F1;
 
 .tfwc {
   margin-top: 3em !important;
-  margin-bottom: 3em !important;
   max-width: 90% !important;
   background: white;
   .page-title, .woocommerce-result-count {
