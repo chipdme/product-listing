@@ -5157,6 +5157,11 @@ article input#place_order {
 }
 
 /* line 4585, sass/style.scss */
+#content {
+  background-color: white;
+}
+
+/* line 4589, sass/style.scss */
 #page {
   background: transparent !important;
 }
