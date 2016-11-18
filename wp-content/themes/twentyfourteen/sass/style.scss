@@ -4400,10 +4400,11 @@ a.post-thumbnail:hover {
 }
 
 .cropped {
-  background-position: 0px 0px;
+  background-position: center;
   background-size: 55px 55px;
   width: 55px;
-  height: 55px;
+  height: 5em;
+  background-repeat: no-repeat;
 }
 
 .animate {
