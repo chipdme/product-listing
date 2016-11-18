@@ -5180,15 +5180,6 @@ header.entry-header {
 }
 
 /* line 4604, sass/style.scss */
-#page {
+#page, #masthead {
   max-width: 100% !important;
-}
-
-/* line 4608, sass/style.scss */
-.header-main {
-  width: 100% !important;
-}
-/* line 4610, sass/style.scss */
-.header-main .search-toggle {
-  margin-right: 10px !important;
 }
