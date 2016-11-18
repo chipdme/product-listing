@@ -5177,3 +5177,17 @@ body {
 header.entry-header {
   display: none;
 }
+
+/* line 4603, sass/style.scss */
+#page {
+  max-width: 100% !important;
+}
+
+/* line 4607, sass/style.scss */
+.header-main {
+  width: 100% !important;
+}
+/* line 4609, sass/style.scss */
+.header-main .search-toggle {
+  margin-right: 10px !important;
+}

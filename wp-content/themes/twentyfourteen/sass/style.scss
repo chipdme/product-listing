@@ -4599,3 +4599,14 @@ body {
 header.entry-header {
   display: none;
 }
+
+#page {
+  max-width: 100% !important;
+}
+
+.header-main {
+  width: 100% !important;
+  .search-toggle {
+    margin-right: 10px !important;
+  }
+}
