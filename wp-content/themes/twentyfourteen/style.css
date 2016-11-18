@@ -5166,3 +5166,8 @@ article input#place_order {
 #page {
   background: transparent !important;
 }
+
+/* line 4594, sass/style.scss */
+body {
+  background: #fff !important;
+}
