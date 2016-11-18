@@ -5103,19 +5103,19 @@ article input#place_order {
 }
 
 /* line 4537, sass/style.scss */
-#post-27 {
+#post-27, #post-4 {
   margin: 0 !important;
 }
 /* line 4540, sass/style.scss */
-#post-27 header.entry-header {
+#post-27 header.entry-header, #post-4 header.entry-header {
   display: none !important;
 }
 /* line 4543, sass/style.scss */
-#post-27 .entry-content {
+#post-27 .entry-content, #post-4 .entry-content {
   max-width: 100% !important;
 }
 /* line 4548, sass/style.scss */
-#post-27 .three-icons p {
+#post-27 .three-icons p, #post-4 .three-icons p {
   max-width: 15em;
 }
 
