@@ -5172,3 +5172,8 @@ article input#place_order {
 body {
   background: #fff !important;
 }
+
+/* line 4599, sass/style.scss */
+header.entry-header {
+  display: none;
+}
