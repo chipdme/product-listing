@@ -4416,7 +4416,8 @@ a.post-thumbnail:hover {
   padding: 40px;
   padding-left: 4em;
   padding-right: 4em;
-  background-color: #00A8EF;
+  background-color: #183544;
+  background-image: url('https://s15.postimg.org/j92cr0pmj/background.png');
 }
 
 .site-title {
@@ -4603,4 +4604,8 @@ header.entry-header {
 
 #page, #masthead {
   max-width: 100% !important;
+}
+
+.woocommerce ul.products li.product a img {
+  height: 15em !important;
 }

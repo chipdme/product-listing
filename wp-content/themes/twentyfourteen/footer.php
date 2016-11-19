@@ -16,14 +16,14 @@
 			 data-image-src="http://storage.googleapis.com/instapage-user-media/3decfab1/1765785-0-background-36.png"
 			 style="height: 500px">
 			<div class="contact-box flex-column items-center" style="width: 450px; height: 300px">
-				<h1 style="margin: 1em;">Get contacted</h1>
+				<h1 style="margin: 1em;">Exclusive deals & offers!</h1>
 				<input
 					placeholder="Email"
 					class="contact-input"
 				>
 
 				</input>
-				<button class="contact-button">Get Contacted</button>
+				<button class="contact-button">Sign me up</button>
 			</div>
 		</div>
 
