@@ -4422,6 +4422,12 @@ a.post-thumbnail:hover {
   background-image: url('https://s15.postimg.org/j92cr0pmj/background.png');
 }
 
+@media only screen and (max-width: 500px) {
+  .banner {
+    flex-direction: column;
+  }
+}
+
 .site-title {
   background-image: url(../../../wp-includes/images/logo.png);
   background-size: contain;

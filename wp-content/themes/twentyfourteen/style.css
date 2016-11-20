@@ -4977,7 +4977,13 @@ a.post-thumbnail:hover {
   background-image: url("https://s15.postimg.org/j92cr0pmj/background.png");
 }
 
-/* line 4425, sass/style.scss */
+@media only screen and (max-width: 500px) {
+  /* line 4426, sass/style.scss */
+  .banner {
+    flex-direction: column;
+  }
+}
+/* line 4431, sass/style.scss */
 .site-title {
   background-image: url(../../../wp-includes/images/logo.png);
   background-size: contain;
@@ -4986,7 +4992,7 @@ a.post-thumbnail:hover {
   width: 100px;
 }
 
-/* line 4433, sass/style.scss */
+/* line 4439, sass/style.scss */
 .tag-line {
   font-size: 2.8rem;
   font-weight: 500;
@@ -4998,7 +5004,7 @@ a.post-thumbnail:hover {
   color: #fff;
 }
 
-/* line 4444, sass/style.scss */
+/* line 4450, sass/style.scss */
 .video-demo-play-wrapper {
   position: absolute;
   top: 0;
@@ -5007,7 +5013,7 @@ a.post-thumbnail:hover {
   bottom: 0;
 }
 
-/* line 4452, sass/style.scss */
+/* line 4458, sass/style.scss */
 .video-demo-play-wrapper .video-demo-play {
   background-color: #D31150;
   border-radius: 40px;
@@ -5021,7 +5027,7 @@ a.post-thumbnail:hover {
   flex-direction: row;
 }
 
-/* line 4465, sass/style.scss */
+/* line 4471, sass/style.scss */
 .video-demo-play-wrapper .video-demo-play h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -5033,122 +5039,122 @@ a.post-thumbnail:hover {
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
 }
 
-/* line 4476, sass/style.scss */
+/* line 4482, sass/style.scss */
 .hidden {
   display: none;
 }
 
-/* line 4483, sass/style.scss */
+/* line 4489, sass/style.scss */
 .cart_totals.calculated_shipping {
   width: 100% !important;
 }
-/* line 4485, sass/style.scss */
+/* line 4491, sass/style.scss */
 .cart_totals.calculated_shipping .checkout-button {
   background-color: #D31150 !important;
 }
 
-/* line 4490, sass/style.scss */
+/* line 4496, sass/style.scss */
 .entry-header {
   padding: 2em !important;
 }
 
-/* line 4494, sass/style.scss */
+/* line 4500, sass/style.scss */
 .woocommerce-Tabs-panel {
   padding: 1em !important;
 }
 
-/* line 4498, sass/style.scss */
+/* line 4504, sass/style.scss */
 .entry-summary {
   padding: 0.5em !important;
 }
-/* line 4500, sass/style.scss */
+/* line 4506, sass/style.scss */
 .entry-summary button {
   background-color: #D31150 !important;
 }
 
-/* line 4505, sass/style.scss */
+/* line 4511, sass/style.scss */
 .tfwc {
   margin-top: 3em !important;
   max-width: 90% !important;
   background: white;
 }
-/* line 4509, sass/style.scss */
+/* line 4515, sass/style.scss */
 .tfwc .page-title, .tfwc .woocommerce-result-count {
   display: none;
 }
 
-/* line 4514, sass/style.scss */
+/* line 4520, sass/style.scss */
 #main {
   margin: 0 !important;
 }
-/* line 4516, sass/style.scss */
+/* line 4522, sass/style.scss */
 #main #primary {
   padding: 0 !important;
 }
 
-/* line 4521, sass/style.scss */
+/* line 4527, sass/style.scss */
 article {
   margin: 3em !important;
 }
-/* line 4524, sass/style.scss */
+/* line 4530, sass/style.scss */
 article input#coupon_code {
   width: 10em !important;
 }
-/* line 4528, sass/style.scss */
+/* line 4534, sass/style.scss */
 article header.entry-header {
   max-width: 90% !important;
 }
-/* line 4531, sass/style.scss */
+/* line 4537, sass/style.scss */
 article .entry-content {
   max-width: 90% !important;
   padding: 2em !important;
 }
-/* line 4536, sass/style.scss */
+/* line 4542, sass/style.scss */
 article input#place_order {
   background-color: #D31150 !important;
 }
 
-/* line 4541, sass/style.scss */
+/* line 4547, sass/style.scss */
 #post-27, #post-4 {
   margin: 0 !important;
 }
-/* line 4544, sass/style.scss */
+/* line 4550, sass/style.scss */
 #post-27 header.entry-header, #post-4 header.entry-header {
   display: none !important;
 }
-/* line 4547, sass/style.scss */
+/* line 4553, sass/style.scss */
 #post-27 .entry-content, #post-4 .entry-content {
   max-width: 100% !important;
 }
-/* line 4552, sass/style.scss */
+/* line 4558, sass/style.scss */
 #post-27 .three-icons p, #post-4 .three-icons p {
   max-width: 15em;
 }
 
-/* line 4558, sass/style.scss */
+/* line 4564, sass/style.scss */
 .search-box {
   float: right;
   width: 20em;
 }
 
-/* line 4563, sass/style.scss */
+/* line 4569, sass/style.scss */
 .dummy-height {
   background-color: #F1F1F1;
   height: 3em;
 }
 
-/* line 4568, sass/style.scss */
+/* line 4574, sass/style.scss */
 .contact-box {
   background-color: #fff;
 }
-/* line 4570, sass/style.scss */
+/* line 4576, sass/style.scss */
 .contact-box .contact-input {
   background-color: #F1F1F1;
   width: 20em;
   color: white;
   box-sizing: border-box;
 }
-/* line 4576, sass/style.scss */
+/* line 4582, sass/style.scss */
 .contact-box .contact-button {
   margin-top: 1em;
   padding-top: 2em;
@@ -5159,42 +5165,42 @@ article input#place_order {
   box-sizing: border-box;
 }
 
-/* line 4587, sass/style.scss */
+/* line 4593, sass/style.scss */
 #secondary {
   display: none;
 }
 
-/* line 4591, sass/style.scss */
+/* line 4597, sass/style.scss */
 #content {
   background-color: white;
 }
 
-/* line 4595, sass/style.scss */
+/* line 4601, sass/style.scss */
 #page {
   background: transparent !important;
 }
 
-/* line 4599, sass/style.scss */
+/* line 4605, sass/style.scss */
 body {
   background: #fff !important;
 }
 
-/* line 4603, sass/style.scss */
+/* line 4609, sass/style.scss */
 header.entry-header {
   display: none;
 }
 
-/* line 4607, sass/style.scss */
+/* line 4613, sass/style.scss */
 #page, #masthead {
   max-width: 100% !important;
 }
 
-/* line 4611, sass/style.scss */
+/* line 4617, sass/style.scss */
 .woocommerce ul.products li.product a img {
   height: 15em !important;
 }
 
-/* line 4615, sass/style.scss */
+/* line 4621, sass/style.scss */
 .checkout-button {
   background-color: #D31150 !important;
 }
