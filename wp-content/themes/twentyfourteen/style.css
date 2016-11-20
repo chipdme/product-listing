@@ -5189,3 +5189,8 @@ header.entry-header {
 .woocommerce ul.products li.product a img {
   height: 15em !important;
 }
+
+/* line 4613, sass/style.scss */
+.checkout-button {
+  background-color: #D31150 !important;
+}
