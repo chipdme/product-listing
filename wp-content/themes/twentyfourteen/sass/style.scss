@@ -4411,8 +4411,10 @@ a.post-thumbnail:hover {
   transition: .085s all ease-in;
 }
 
-.banner {
+.masthead-fixed .banner {
   margin-top: 3em;
+}
+.banner {
   padding: 40px;
   padding-left: 4em;
   padding-right: 4em;
