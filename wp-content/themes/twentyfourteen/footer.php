@@ -11,8 +11,7 @@
 ?>
 
 		</div><!-- #main -->
-		<div class="flex items-center justify-center"
-			 style="height: 500px; background-image: url('http://storage.googleapis.com/instapage-user-media/3decfab1/1765785-0-background-36.png'); background-size: cover">
+		<div class="footer-contact-form flex items-center justify-center">
 			<div class="contact-box flex-column items-center" style="width: 450px; height: 300px">
 				<h1 style="margin: 1em;">Exclusive deals & offers!</h1>
 				<input

@@ -4422,12 +4422,6 @@ a.post-thumbnail:hover {
   background-image: url('https://s15.postimg.org/j92cr0pmj/background.png');
 }
 
-@media only screen and (max-width: 500px) {
-  .banner {
-    flex-direction: column;
-  }
-}
-
 .site-title {
   background-image: url(../../../wp-includes/images/logo.png);
   background-size: contain;
@@ -4620,4 +4614,25 @@ header.entry-header {
 
 .checkout-button {
   background-color: $primary-color !important;
+}
+
+.footer-contact-form {
+  height: 500px;
+  background-image: url('http://storage.googleapis.com/instapage-user-media/3decfab1/1765785-0-background-36.png');
+  background-size: cover
+}
+
+@media only screen and (max-width: 500px) {
+  .banner {
+    flex-direction: column;
+  }
+  .woocommerce ul.products li.product a img {
+    height: 10em !important;
+  }
+  .video-demo-wrapper {
+    display: none;
+  }
+  .footer-contact-form {
+    height: 300px;
+  }
 }
