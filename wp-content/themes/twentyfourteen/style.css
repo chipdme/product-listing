@@ -5226,4 +5226,9 @@ header.entry-header {
   .footer-contact-form {
     height: 300px;
   }
+
+  /* line 4638, sass/style.scss */
+  .tfwc {
+    margin-top: 0 !important;
+  }
 }
