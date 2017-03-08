@@ -24,9 +24,9 @@
 				<button class="contact-button">Sign me up</button>
 			</div>
 			-->
-            <link rel="stylesheet" href="http://www.chipd.sg/wp-content/plugins/wp-subscription/assets/css/bootstrap.min.css" type="text/css" media="all"/><link rel="stylesheet" href="http://www.chipd.sg/wp-content/plugins/wp-subscription/assets/dist/css/AdminLTE.css"  type="text/css" media="all"/><script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js'></script><style></style><div class="bootstrap-wrapper support_bs"> <div class="contact-box flex-column items-center wp_subscription" style="width: 450px; height: 300px">
+            <link rel="stylesheet" href="http://www.chipd.sg/wp-content/plugins/wp-subscription/assets/css/bootstrap.min.css" type="text/css" media="all"/><link rel="stylesheet" href="http://www.chipd.sg/wp-content/plugins/wp-subscription/assets/dist/css/AdminLTE.css"  type="text/css" media="all"/><script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js'></script><style></style><div class="bootstrap-wrapper support_bs"> <div class="wp_subscription">
 
-                    <h1 style="margin: 1em;">Exclusive deals & offers!</h1>
+                    <h3 class="box-title wp_subscription_title" id="wp_subscription_title1">Exclusive Deals and Offers</h3>
 
                     <form name="myform1">
 
